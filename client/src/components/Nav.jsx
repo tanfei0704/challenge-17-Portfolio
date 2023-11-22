@@ -5,8 +5,8 @@ const Nav = () => {
   const currentPage = useLocation().pathname;
 
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
+    <ul className="nav nav-underline  border-2 m-2 p-2 ">
+      <li className="nav-item ">
         <Link
           to="/"
           // This is a conditional (ternary) operator that checks to see if the current page is "Home"

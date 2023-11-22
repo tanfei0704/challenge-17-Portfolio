@@ -10,7 +10,7 @@ const App = () => {
     <>
       <Header />
       <Nav />
-      <main className="mx-3">
+      <main className="container-fluid">
         <Outlet />
       </main>
       <Footer />

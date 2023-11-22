@@ -2,8 +2,8 @@
 
 const Header = () => {
     return(
-        <div className='container'>
-            <div className=''> Tan Fei</div>
+        <div className='bg-danger-subtle text-dark'>
+            <div className='fs-1 text-center'> Tan Fei</div>
         </div>
     );
 }
