@@ -6,5 +6,21 @@
     "github": "https://github.com/tanfei0704/ProjectOne-Flight-Travel-Finder",
     "deploy": "https://ljpeach.github.io/Flight-Travel-Finder/",
     "topics": "HTML5, CSS, Javascript"
+},
+{
+    "id": 2,
+    "name": "EV Charger Station",
+    "image": "",
+    "github": "https://github.com/tanfei0704/ProjectOne-Flight-Travel-Finder",
+    "deploy": "https://ljpeach.github.io/Flight-Travel-Finder/",
+    "topics": "HTML5, CSS, Javascript"
+},
+{
+    "id": 3,
+    "name": "MVC Tech Blog",
+    "image": "",
+    "github": "https://github.com/tanfei0704/ProjectOne-Flight-Travel-Finder",
+    "deploy": "https://ljpeach.github.io/Flight-Travel-Finder/",
+    "topics": "HTML5, CSS, Javascript"
 }
 ]

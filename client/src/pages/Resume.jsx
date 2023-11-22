@@ -1,21 +1,69 @@
+import React, { useState } from 'react';
+
 export default function Contact() {
-    return (
-      <div className="container clearfix">
-        <h1>Resume</h1>
-        <p>
-          Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-          molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-          magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-          efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-          mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-          posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-          faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-          ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-          dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-          conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-          rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-        </p>
+  const backgroundImageUrl = 'https://media.istockphoto.com/id/1306830654/photo/school-desk-on-laptop-with-white-empty-mock-up-screen-on-blue-background-online-education-and.webp?b=1&s=170667a&w=0&k=20&c=50jQbL6vZpqmWwH9D6DxBDs90bATXJvoPUms24kZ2ok=';
+
+  const [isButtonActive, setButtonActive] = useState(false);
+
+  const containerStyle = {
+    backgroundImage: `url(${backgroundImageUrl})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    color: 'black', // Set text color to be visible on the background
+    height: '100vh', // Set the height to cover the entire viewport
+    width: '100%', // Set the width to cover the entire viewport
+    display: 'flex',
+    flexDirection: 'column', // Display child elements in a column
+    alignItems: 'center',
+    justifyContent: 'center',
+    textAlign: 'center',
+  };
+
+  const toggleButtonStyle = {
+    margin: '20px 0', // Add margin to separate the button from other elements
+    padding: '10px 20px',
+    fontSize: '15px',
+    fontWeight: 'bold',
+    backgroundColor: isButtonActive ? '#4CAF50' : '#FF5733', // Different colors for active and inactive states
+    color: 'white', // White text color
+    border: 'none',
+    borderRadius: '5px',
+    cursor: 'pointer', // Set the cursor style to pointer
+    transition: 'background-color 0.3s ease', // Smooth transition on hover
+  };
+
+  const handleButtonClick = () => {
+    // You can perform additional actions here before the download
+    setButtonActive(true);
+
+    // Trigger the download
+    const link = document.createElement('a');
+    link.href = '/path/to/your/file.pdf'; // Replace with the actual path to your file
+    link.download = 'RV.pdf'; // Specify the desired filename
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
+  return (
+    <div className="container clearfix" style={containerStyle}>
+      <h1>Resume</h1>
+      <a href="/path/to/your/file.pdf" download="RV.pdf" style={toggleButtonStyle} onClick={handleButtonClick}>
+        {isButtonActive ? 'Download' : 'Downloaded'}
+      </a>
+      <div>
+        <h2>Front-end</h2>
+        <p>HTML</p>
+        <p>CSS</p>
+        <p>JavaScript</p>
+        <p>React</p>
+        <h2>Back-end</h2>
+        <p>Node.js</p>
+        <p>Express.js</p>
+        <p>MongoDB</p>
+        <p>MySQL</p>
       </div>
-    );
-  }
-  
+
+    </div>
+  );
+}

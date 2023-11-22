@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const ProjectCard = (props) => {
     return (
-        <div className="card bg-warning"> 
+        <div className="bg-warning"> 
         <div className="img-container">
           <img alt={props.id} src={props.image}/>
         </div>

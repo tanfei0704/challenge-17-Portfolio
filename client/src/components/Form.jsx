@@ -38,7 +38,7 @@ function Form() {
 
 return (
   <section className="container">
-      <h2 data-testid='h1tag' className="top-title">Contact Form</h2>
+      <h2 data-testid='h1tag' className="top-title ">Contact Form</h2>
       <hr></hr>
       <form class="justify-content-center" id="contact-form">
           <div class="mt-5" >
@@ -60,7 +60,7 @@ return (
           )}
 
           <div class="mt-5 mb-5" >
-          <button data-testid='button' class="btn btn-outline-dark " type="submit" onSubmit={handleSubmit}>Submit</button>
+          <button data-testid='button' class="btn btn-success" type="submit" onSubmit={handleSubmit}>Submit</button>
           </div>
       </form>
   </section>
