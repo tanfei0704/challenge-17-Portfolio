@@ -33,13 +33,12 @@ export default function Contact() {
   };
 
   const handleButtonClick = () => {
-    // You can perform additional actions here before the download
     setButtonActive(true);
 
     // Trigger the download
     const link = document.createElement('a');
-    link.href = '/path/to/your/file.pdf'; // Replace with the actual path to your file
-    link.download = 'RV.pdf'; // Specify the desired filename
+    link.href = '/path/to/your/file.pdf'; //the path for download my RV
+    link.download = 'RV.pdf'; 
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

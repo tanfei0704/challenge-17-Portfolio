@@ -2,7 +2,7 @@
 [{
     "id": 1,
     "name": "Flight Travel Finder",
-    "image": "",
+    "image": "https://i.gifer.com/embedded/download/4C6h.gif",
     "github": "https://github.com/tanfei0704/ProjectOne-Flight-Travel-Finder",
     "deploy": "https://ljpeach.github.io/Flight-Travel-Finder/",
     "topics": "HTML5, CSS, Javascript"
@@ -10,17 +10,41 @@
 {
     "id": 2,
     "name": "EV Charger Station",
-    "image": "",
-    "github": "https://github.com/tanfei0704/ProjectOne-Flight-Travel-Finder",
-    "deploy": "https://ljpeach.github.io/Flight-Travel-Finder/",
-    "topics": "HTML5, CSS, Javascript"
+    "image": "https://www.mouser.in/images/mktg/infographics/amphenol_sensors_ev/car-sensor-animation-mobile.gif",
+    "github": "https://github.com/tanfei0704/Project2-ev-charger-locator",
+    "deploy": "https://desolate-cove-89215-d9792a7c3caa.herokuapp.com/",
+    "topics": "Node Express MySQL API"
 },
 {
     "id": 3,
     "name": "MVC Tech Blog",
-    "image": "",
-    "github": "https://github.com/tanfei0704/ProjectOne-Flight-Travel-Finder",
-    "deploy": "https://ljpeach.github.io/Flight-Travel-Finder/",
+    "image": "https://www.godaddy.com/garage/wp-content/uploads/2015/01/responsive_360.gif",
+    "github": "https://github.com/tanfei0704/challenge-14-MVC-TechBlog",
+    "deploy": "https://secure-cliffs-88853-fb1823730005.herokuapp.com/",
+    "topics": "Node Express MySQL "
+},
+{
+    "id": 4,
+    "name": "Employee Tracker",
+    "image": "https://media.tenor.com/8K8CtiSyr3cAAAAC/employee-anniversary-employee.gif",
+    "github": "https://github.com/tanfei0704/challenge-12-employee-Tracker",
+    "deploy": "https://drive.google.com/file/d/1BBXOJUdGuDoG8-NB7QAlTX8dBuxb3duU/view",
+    "topics": "Node MySQL"
+},
+{
+    "id": 5,
+    "name": "PWA Text Editor",
+    "image": "https://cdn.dribbble.com/users/472930/screenshots/5872682/icon_animation.gif",
+    "github": "https://github.com/tanfei0704/challenge-16-PWA-TextEditor",
+    "deploy": "https://hidden-woodland-10962-fbfeed604d1b.herokuapp.com/",
+    "topics": "Node Express IndexedDB PWA Heroku"
+},
+{
+    "id": 6,
+    "name": "Quiz Code",
+    "image": "https://media.tenor.com/9CMykSzGtY8AAAAC/take-quiz.gif",
+    "github": "https://github.com/tanfei0704/challenge-four-quiz-code",
+    "deploy": "https://tanfei0704.github.io/challenge-four-quiz-code/",
     "topics": "HTML5, CSS, Javascript"
 }
 ]
