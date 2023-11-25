@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import App from './App';
 import Error from './pages/Error';
 import Contact from './pages/Contact';
-import Aboutme from './pages/Aboutme';
+import Home from './pages/Home';
 import Resume from './pages/Resume';
 import Portfolio from './pages/Portfolio';
 
@@ -20,7 +20,7 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Aboutme />,
+        element: <Home />,
       },
       {
         path: '/Portfolio',
@@ -42,4 +42,4 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <RouterProvider router={router} />
 );
 
-serviceWorkerRegistration.unregister();
+
