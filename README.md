@@ -13,7 +13,7 @@ Or you could open below live link for more details!!!
 
 ![demo](./public/1.png)
 
-## Live demon
+## Live demo
 
 - [live link](https://roaring-malabi-d3aa33.netlify.app)
 
